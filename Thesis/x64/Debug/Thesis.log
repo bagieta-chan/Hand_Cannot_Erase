@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(263,5): warning MSB8077: niektóre pliki są ustawione do kompilowania jako C++/CLI, ale właściwość „Włącz obsługę środowiska CLR dla pojedynczych plików” nie jest zdefiniowana. Sprawdź dokumentację „Strona właściwości zaawansowanych”, aby uzyskać więcej szczegółów.
+  MyForm.cpp
+C:\Users\Aleksy\Desktop\thesisproj\Thesis\MyForm.cpp : fatal  error C1107: nie można odnaleźć zestawu 'mscorlib.dll': określ ścieżkę wyszukiwania zestawu za pomocą /AI lub ustaw zmienną środowiskową LIBPATH
+  MyForm1.cpp
+C:\Users\Aleksy\Desktop\thesisproj\Thesis\MyForm1.cpp : fatal  error C1107: nie można odnaleźć zestawu 'mscorlib.dll': określ ścieżkę wyszukiwania zestawu za pomocą /AI lub ustaw zmienną środowiskową LIBPATH
+  Generowanie kodu...

@@ -1,0 +1,16 @@
+/*
+ * utils.h
+ *
+ *  Created on: Oct 18, 2023
+ *      Author: Aleksy
+ */
+
+#ifndef INC_UTILS_H_
+#define INC_UTILS_H_
+
+
+#include "main.h"
+
+void* set_memory(void * ptr, uint8_t val, size_t size);
+
+#endif /* INC_UTILS_H_ */

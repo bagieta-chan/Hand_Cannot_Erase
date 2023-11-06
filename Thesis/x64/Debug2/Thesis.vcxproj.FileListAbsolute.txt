@@ -1,0 +1,4 @@
+C:\Users\Aleksy\Desktop\thesisproj\Thesis\x64\Debug2\Thesis.vcxproj.AssemblyReference.cache
+C:\Users\Aleksy\Desktop\thesisproj\Thesis\x64\Debug2\Thesis.MyForm.resources
+C:\Users\Aleksy\Desktop\thesisproj\Thesis\x64\Debug2\Thesis.MyForm1.resources
+C:\Users\Aleksy\Desktop\thesisproj\Thesis\x64\Debug2\Thesis.vcxproj.GenerateResource.cache

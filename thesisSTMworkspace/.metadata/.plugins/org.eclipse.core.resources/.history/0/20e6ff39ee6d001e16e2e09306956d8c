@@ -1,0 +1,16 @@
+
+#include "utils.h"
+
+void* set_memory(void * ptr, uint8_t val, size_t size)
+{
+	void *location = ptr;
+
+	for(uint8_t i =0; i< size; i++)
+	{
+		*(ptr + i) = val;
+	}
+
+	return location;
+
+}
+

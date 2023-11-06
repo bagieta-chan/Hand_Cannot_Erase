@@ -1,0 +1,39 @@
+#include "kalman.h"
+
+kalman kalman;
+
+float kalman_getAngle(Kalman *kalman, float angle, float gain, float time_interval) {
+
+    double rate = gain - kalman->bias;
+
+    kalman->angle += time_interval * rate;
+
+    kalman->P[0][0] += time_interval * (time_interval * kalman->P[1][1]
+													  - kalman->P[0][1]
+													  - kalman->P[1][0]
+													  + kalman->Q_angle);
+
+    kalman->P[0][1] -= time_interval * kalman->P[1][1];
+    kalman->P[1][0] -= time_interval * kalman->P[1][1];
+    kalman->P[1][1] += kalman->Q_bias * time_interval;
+
+    double S = kalman->P[0][0] + kalman->R_measure;
+    double K[2];
+    K[0] = kalman->P[0][0] / S;
+    K[1] = kalman->P[1][0] / S;
+
+    double y = angle - kalman->angle;
+    kalman->angle += K[0] * y;
+    kalman->bias += K[1] * y;
+
+    double P00_temp = kalman->P[0][0];
+    double P01_temp = kalman->P[0][1];
+
+    kalman->P[0][0] -= K[0] * P00_temp;
+    kalman->P[0][1] -= K[0] * P01_temp;
+    kalman->P[1][0] -= K[1] * P00_temp;
+    kalman->P[1][1] -= K[1] * P01_temp;
+
+    return kalman->angle;
+};
+

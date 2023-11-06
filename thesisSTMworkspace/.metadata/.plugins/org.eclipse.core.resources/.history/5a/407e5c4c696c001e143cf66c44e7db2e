@@ -1,0 +1,66 @@
+#include "bluetooth_module.h"
+#include "main.h"
+#include "usart.h"
+#include <string.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+char bluetooth_TX_buffer[BUFF_LEN];
+char bluetooth_RX6_buffer[BUFF_LEN] = "";
+
+char password[]= "1234";
+
+char command_end[] = "\r\n";
+char command_AT[] = "AT";
+char command_password[] = "PSWD";
+char command_module_name[] = "THESIS_MODULE";
+char command_baud_rate[] = "UART";
+char module_version[] = "VERSION";
+char factory_settings[] = "ORGL";
+char result_command[BUFF_LEN];
+
+bool bt_editMode = false;
+
+void enable_BluetoothEditMode(bool* check_status)
+{
+	if(!*check_status)
+	{
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, SET);
+		HAL_Delay(100);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, RESET);
+
+	}
+	else
+	{
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, RESET);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, SET);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, RESET);
+	}
+
+}
+
+void check_Bluetooth()
+{
+
+	sprintf(result_command, "%s%s", command_AT,command_end);
+	sprintf((char*)bluetooth_TX_buffer, "%s", result_command);
+
+	if(*bluetooth_TX_buffer != '\0')
+	{
+		HAL_UART_Transmit_IT(&huart2, (uint8_t *)"AT\r\n", BUFF_LEN);
+
+	//	HAL_UART_Transmit_IT(&huart6, (uint8_t*)bluetooth_TX_buffer, BUFF_LEN);
+	}
+
+	memset(bluetooth_TX_buffer, 0, BUFF_LEN);
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+
+}
+
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+
+}

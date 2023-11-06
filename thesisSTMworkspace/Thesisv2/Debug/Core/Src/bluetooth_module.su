@@ -1,0 +1,8 @@
+../Core/Src/bluetooth_module.c:31:6:enable_BluetoothEditMode	16	static
+../Core/Src/bluetooth_module.c:48:6:check_Bluetooth	8	static,ignoring_inline_asm
+../Core/Src/bluetooth_module.c:79:6:check_bluetooth_Name	16	static,ignoring_inline_asm
+../Core/Src/bluetooth_module.c:111:6:check_bluetooth_BaudRate	16	static,ignoring_inline_asm
+../Core/Src/bluetooth_module.c:140:6:check_bluetooth_Password	16	static,ignoring_inline_asm
+../Core/Src/bluetooth_module.c:169:6:set_bluetooth_Name	32	static,ignoring_inline_asm
+../Core/Src/bluetooth_module.c:242:6:set_BaudRate	16	static
+../Core/Src/bluetooth_module.c:247:6:set_bluetooth_BaudRate	8	static,ignoring_inline_asm

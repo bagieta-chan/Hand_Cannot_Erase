@@ -1,0 +1,2 @@
+../Core/Src/timers.c:12:6:HAL_TIM_PeriodElapsedCallback	8	static,ignoring_inline_asm
+../Core/Src/timers.c:58:6:calculate_Tim2Period	8	static

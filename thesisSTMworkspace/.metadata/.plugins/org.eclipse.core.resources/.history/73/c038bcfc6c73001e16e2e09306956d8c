@@ -1,0 +1,133 @@
+#include "bluetooth_module.h"
+#include "main.h"
+#include "usart.h"
+#include <string.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+#define BAUD_RATE 9600
+
+volatile char bluetooth_TX_buffer[BUFF_LEN];
+volatile char bluetooth_RX1_buffer[BUFF_LEN] = "";
+
+char password[]= "1234";
+
+char command_end[] = "\r\n";
+char command_AT[] = "AT";
+char command_password[] = "PSWD";
+char command_module_name[] = "THESIS_MODULE";
+char command_name[] = "NAME";
+char command_baud_rate[] = "UART";
+
+char module_version[] = "VERSION";
+char factory_settings[] = "ORGL";
+char result_command[BUFF_LEN];
+
+static char baud_rate[] = "";
+
+bool bt_editMode = false;
+
+void enable_BluetoothEditMode(bool* check_status)
+{
+	if(!*check_status)
+	{
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, SET);
+		HAL_Delay(BUFF_LEN);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, RESET);
+	}
+	else
+	{
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_10, RESET);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, SET);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, RESET);
+	}
+
+}
+
+void check_Bluetooth()
+{
+
+	memset(bluetooth_TX_buffer,0, BUFF_LEN);
+	memset(result_command, 0, BUFF_LEN);
+
+	sprintf(result_command, "%s%s", command_AT, command_end);
+	sprintf(bluetooth_TX_buffer, "%s", result_command);
+
+	if(*bluetooth_TX_buffer != '\0')
+	{
+		__disable_irq();
+		HAL_UART_Transmit_DMA(&huart2, (uint8_t *)bluetooth_TX_buffer, BUFF_LEN);
+		HAL_UART_Transmit_DMA(&huart1, (uint8_t *)bluetooth_TX_buffer, BUFF_LEN);
+		__enable_irq();
+		memset(bluetooth_TX_buffer,0, BUFF_LEN);
+
+
+		HAL_UART_Receive_DMA(&huart1, (uint8_t *)bluetooth_RX1_buffer, BUFF_LEN);
+
+
+	}
+
+}
+
+void check_bluetooth_Name()
+{
+
+	memset(bluetooth_TX_buffer,0, BUFF_LEN);
+	memset(result_command, 0, BUFF_LEN);
+
+	sprintf(result_command, "%s+%s?", command_AT, command_name);
+	sprintf(bluetooth_TX_buffer, "%s", result_command);
+
+	if(*bluetooth_TX_buffer != '\0')
+	{
+		HAL_UART_Receive_DMA(&huart1, (uint8_t *)bluetooth_RX1_buffer, BUFF_LEN);
+		HAL_UART_Transmit_DMA(&huart2, (uint8_t *)bluetooth_TX_buffer, BUFF_LEN);
+		while (!(USART2->SR & USART_SR_TC)) {
+				    }
+				USART2->CR1 &= ~USART_CR1_TXEIE;
+		HAL_UART_Transmit_DMA(&huart1, (uint8_t *)bluetooth_TX_buffer, BUFF_LEN);
+		while (!(USART1->SR & USART_SR_TC)) {
+				    }
+				USART1->CR1 &= ~USART_CR1_TXEIE;
+		memset(bluetooth_TX_buffer,0, BUFF_LEN);
+	}
+
+}
+
+void set_BaudRate(int rate)
+{
+	itoa(rate, baud_rate, 10);
+}
+
+void set_bluetooth_BaudRate()
+{
+	__disable_irq();
+	memset(bluetooth_TX_buffer,0, BUFF_LEN);
+	memset(bluetooth_RX1_buffer,0, BUFF_LEN);
+	memset(result_command, 0, BUFF_LEN);
+
+	sprintf(bluetooth_TX_buffer, "%s+%s?", command_AT, command_baud_rate);
+
+	set_BaudRate(BAUD_RATE);
+
+
+
+	if(*bluetooth_TX_buffer != '\0')
+	{
+		HAL_UART_Receive_IT(&huart1, (uint8_t *)bluetooth_RX1_buffer, BUFF_LEN);
+		HAL_UART_Transmit_DMA(&huart2, (uint8_t *)bluetooth_TX_buffer, BUFF_LEN);
+		HAL_UART_Transmit_DMA(&huart1, (uint8_t *)bluetooth_TX_buffer, BUFF_LEN);
+		memset(bluetooth_TX_buffer,0, BUFF_LEN);
+	}
+	__enable_irq();
+
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	if(huart->Instance == USART1)
+	{
+
+	}
+}
+

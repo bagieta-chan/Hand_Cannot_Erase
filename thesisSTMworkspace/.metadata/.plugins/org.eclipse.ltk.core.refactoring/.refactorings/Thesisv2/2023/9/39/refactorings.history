@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Thesisv2/Core/Src/uart_module.c&apos; to &apos;bluetooth_module.c&apos;" description="Rename resource &apos;uart_module.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/uart_module.c" name="bluetooth_module.c" stamp="1696101011755" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Thesisv2/Core/Inc/uart_module.h&apos; to &apos;bluetooth_module.h&apos;" description="Rename resource &apos;uart_module.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/uart_module.h" name="bluetooth_module.h" stamp="1696101030690" updateReferences="true"/>
+</session>

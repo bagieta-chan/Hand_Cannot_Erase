@@ -1,0 +1,150 @@
+#include "accelerometre.h"
+#include "main.h"
+#include "i2c.h"
+#include "math.h"
+
+#define ACCEL_ADDRESS 0xD0
+#define SLAVE_REGISTER 0x75
+#define GYRO_X_OUT 0x43
+#define ACCEL_X_OUT 0x3B
+#define GYRO_CONFIG_REG 0x1B
+#define ACCEL_CONFIG_REG 0x1C
+#define POWER_MANAGEMENT 0x6B
+#define	SMPLRT_DIV_REGISTER 0x19
+#define ACCEL_I2C_TIMEOUT 100
+
+#define GYRO_X_CONSTANT 5.3f
+#define GYRO_Y_CONSTANT 2.2f
+#define GYRO_Z_CONSTANT 1.1f
+#define ACC_X_CONSTANT
+#define ACC_Y_CONSTANT
+#define ACC_Z_CONSTANT
+
+#define PI 3.142f
+
+//#define ACCEL_RANGE2G 16384.0f
+//#define ACCEL_RANGE4G 8192.0f
+#define ACCEL_RANGE8G 4096.0f
+//#define ACCEL_RANGE16G 2048.0f
+
+#define GYRO_RANGE250_DEG 131.0f
+//#define GYRO_RANGE500_DEG 65.5f
+//#define GYRO_RANGE1000_DEG 32.8f
+//#define GYRO_RANGE2000_DEG 16.4f
+
+Accel acc_device = {0};
+
+static float gyro_divider = 0;
+static float acc_divider = 0;
+
+static uint8_t acc_config = 0;
+static uint8_t gyro_config = 0;
+void accel_Init(void)
+{
+	uint8_t check, data;
+
+	get_Dividers();
+
+	HAL_I2C_Mem_Read(&hi2c1, ACCEL_ADDRESS, SLAVE_REGISTER, 1, &check, 1, ACCEL_I2C_TIMEOUT);
+
+	if(check == 0x68){
+
+		data = 0;
+		HAL_I2C_Mem_Write(&hi2c1, ACCEL_ADDRESS, POWER_MANAGEMENT, 1, &data, 1, ACCEL_I2C_TIMEOUT);
+
+		data = 0x07;
+		HAL_I2C_Mem_Write(&hi2c1, ACCEL_ADDRESS, SMPLRT_DIV_REGISTER, 1, &data, 1, ACCEL_I2C_TIMEOUT);
+
+
+		HAL_I2C_Mem_Write(&hi2c1, ACCEL_ADDRESS, ACCEL_CONFIG_REG, 1, &acc_config, 1, ACCEL_I2C_TIMEOUT);
+
+
+		HAL_I2C_Mem_Write(&hi2c1, ACCEL_ADDRESS, GYRO_CONFIG_REG, 1, &gyro_config, 1, ACCEL_I2C_TIMEOUT);
+	}
+}
+
+void accel_ReadAccel(Accel *device)
+{
+	uint8_t data[6];
+
+	HAL_I2C_Mem_Read(&hi2c1, ACCEL_ADDRESS, ACCEL_X_OUT, 1, data, 6, ACCEL_I2C_TIMEOUT/20);
+
+	device->accel_X_OG = (data[0] << 8) | data[1];
+	device->accel_Y_OG = (data[2] << 8) | data[3];
+	device->accel_Z_OG = (data[4] << 8) | data[5];
+
+	device->accel_X_proc = (float)device->accel_X_OG / acc_divider;
+	device->accel_Y_proc = (float)device->accel_Y_OG / acc_divider;
+	device->accel_Z_proc = (float)device->accel_Z_OG / acc_divider;
+}
+
+void accel_ReadGyro(Accel *device)
+{
+	uint8_t data[6];
+
+	HAL_I2C_Mem_Read(&hi2c1, ACCEL_ADDRESS, GYRO_X_OUT, 1, data, 6, ACCEL_I2C_TIMEOUT/20);
+
+	device->gyro_X_OG = (data[0] << 8) | data[1];
+	device->gyro_Y_OG = (data[2] << 8) | data[3];
+	device->gyro_Z_OG = (data[4] << 8) | data[5];
+
+	device->gyro_X_held = (float)device->gyro_X_OG / gyro_divider + GYRO_X_CONSTANT;
+	device->gyro_Y_held = (float)device->gyro_Y_OG / gyro_divider + GYRO_Y_CONSTANT;
+	device->gyro_Z_held = (float)device->gyro_Z_OG / gyro_divider + GYRO_Z_CONSTANT;
+
+}
+
+void accel_GetAngles(Accel *device)
+{
+	device->rollAngle = atan(device->accel_Y_proc/sqrt(device->accel_X_proc*device->accel_X_proc+device->accel_Z_proc*device->accel_Z_proc))*180.0/PI;
+	device->pitchAngle = atan(-device->accel_X_proc/sqrt(device->accel_Y_proc*device->accel_Y_proc+device->accel_Z_proc*device->accel_Z_proc))*180.0/PI;
+}
+
+void accel_IntegrateGyro(Accel* device, float elapsedFreq)
+{
+	device->gyro_X_proc += device->gyro_X_held / elapsedTime;
+	device->gyro_Y_proc += device->gyro_X_held / elapsedTime;
+	device->gyro_Z_proc += device->gyro_X_held / elapsedTime;
+}
+
+
+void get_Dividers()
+{
+#if defined(ACCEL_RANGE2G)
+	acc_divider = ACCEL_RANGE2G;
+	acc_config = 0b00000000;
+
+#elif defined(ACCEL_RANGE4G)
+	acc_divider = ACCEL_RANGE4G;
+	acc_config = 0b00001000;
+
+#elif defined(ACCEL_RANGE8G)
+	acc_divider = ACCEL_RANGE8G;
+	acc_config = 0b00010000;
+
+#elif defined(ACCEL_RANGE16G)
+	acc_divider = ACCEL_RANGE16G;
+	acc_config = 0b00011000;
+
+#endif
+
+#if defined(GYRO_RANGE250_DEG)
+	gyro_divider = GYRO_RANGE250_DEG;
+	gyro_config = 0b00000000;
+
+#elif defined(GYRO_RANGE500_DEG)
+	gyro_divider = GYRO_RANGE500_DEG;
+	gyro_config = 0b00001000;
+
+#elif defined(GYRO_RANGE1000_DEG)
+	gyro_divider = GYRO_RANGE1000_DEG;
+	gyro_config = 0b00010000;
+
+#elif defined(GYRO_RANGE2000_DEG)
+	gyro_divider = GYRO_RANGE2000_DEG;
+	gyro_config = 0b00011000;
+
+#endif
+}
+
+

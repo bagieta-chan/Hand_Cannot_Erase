@@ -1,0 +1,6 @@
+../Core/Src/accelerometre.c:43:6:accel_Init	32	static
+../Core/Src/accelerometre.c:67:6:accel_ReadAccel	40	static
+../Core/Src/accelerometre.c:82:6:accel_ReadGyro	40	static
+../Core/Src/accelerometre.c:98:6:accel_GetAngles	24	static
+../Core/Src/accelerometre.c:105:6:accel_IntegrateGyro	16	static
+../Core/Src/accelerometre.c:117:6:get_Dividers	4	static

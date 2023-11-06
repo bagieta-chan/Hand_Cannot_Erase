@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.cdt.utils.ui.controls.FileListControl" value="-fcommon"/>
+	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
+	<item key="LastUsedSourceTemplate" value="Default C source template"/>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="HSE_VALUE"/>
+			<item value="nigger"/>
+			<item value="HAL_UART_MspInit"/>
+			<item value="voidHAL_UART_MspInitUART_HandleTypeDef*uartHandle"/>
+			<item value="UART_DMA"/>
+			<item value="Kalman_GetValues"/>
+			<item value="tim3_freq"/>
+		</list>
+	</section>
+</section>

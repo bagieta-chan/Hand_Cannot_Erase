@@ -1,0 +1,2 @@
+timers.c:12:6:HAL_TIM_PeriodElapsedCallback	8
+timers.c:58:6:calculate_Tim2Period	1

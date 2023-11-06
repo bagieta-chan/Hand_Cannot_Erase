@@ -1,0 +1,832 @@
+2023-10-07 12:31:39,516 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 12:31:39,596 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,596 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,596 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,596 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,656 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,656 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,706 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,706 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 12:31:39,746 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 12:34:15,987 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 12:34:16,578 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 12:34:21,637 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 740447496 Bytes (962592768)
+2023-10-07 12:34:27,253 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 566134824 Bytes (962592768)
+2023-10-07 12:34:28,522 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 645304360 Bytes (962592768)
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-07 12:34:28,812 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-07 12:34:28,812 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 12:34:28,822 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 12:34:28,822 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 12:34:28,822 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 12:34:28,822 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 12:34:28,832 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 12:34:28,832 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 12:34:28,832 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 12:34:28,842 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 12:34:29,121 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp_save
+2023-10-07 12:34:29,201 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp
+2023-10-07 12:34:29,241 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c_save
+2023-10-07 12:34:29,349 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c
+2023-10-07 12:34:29,359 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h_save
+2023-10-07 12:34:29,449 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h
+2023-10-07 12:34:29,839 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c_save
+2023-10-07 12:34:29,939 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c
+2023-10-07 12:34:29,949 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h_save
+2023-10-07 12:34:30,009 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h
+2023-10-07 12:34:30,039 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c_save
+2023-10-07 12:34:30,109 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c
+2023-10-07 12:34:30,109 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h_save
+2023-10-07 12:34:30,169 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h
+2023-10-07 12:34:30,189 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c_save
+2023-10-07 12:34:30,264 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c
+2023-10-07 12:34:30,264 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h_save
+2023-10-07 12:34:30,324 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h
+2023-10-07 12:34:30,344 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c_save
+2023-10-07 12:34:30,414 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c
+2023-10-07 12:34:30,424 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h_save
+2023-10-07 12:34:30,484 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h
+2023-10-07 12:34:30,494 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c_save
+2023-10-07 12:34:30,604 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c
+2023-10-07 12:34:30,614 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h_save
+2023-10-07 12:34:30,684 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h
+2023-10-07 12:34:30,704 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c_save
+2023-10-07 12:34:30,799 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c
+2023-10-07 12:34:30,807 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h_save
+2023-10-07 12:34:30,926 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h
+2023-10-07 12:34:30,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c_save
+2023-10-07 12:34:31,116 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c
+2023-10-07 12:34:31,126 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h_save
+2023-10-07 12:34:31,198 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h
+2023-10-07 12:34:31,218 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-07 12:34:31,298 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c
+2023-10-07 12:34:31,308 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp_save
+2023-10-07 12:34:31,348 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp
+2023-10-07 12:34:31,368 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-07 12:34:31,478 [INFO] CodeEngine:335 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-07 12:34:31,508 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h_save
+2023-10-07 12:34:31,588 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h
+2023-10-07 12:34:31,608 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c_save
+2023-10-07 12:34:31,688 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c
+2023-10-07 12:34:32,151 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-10-07 12:34:32,161 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-10-07 12:34:32,486 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-10-07 12:34:34,761 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2600mS.
+2023-10-07 12:34:34,761 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 12:34:34,761 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 12:44:36,670 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 12:46:23,453 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 631145464 Bytes (970981376)
+2023-10-07 12:46:24,591 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 585431640 Bytes (970981376)
+2023-10-07 12:46:26,021 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 660431632 Bytes (970981376)
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-07 12:46:26,317 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-07 12:46:26,327 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-10-07 12:46:26,327 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 12:46:26,327 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:46:26,327 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 12:46:26,327 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 12:46:26,327 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 12:46:26,327 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:46:26,327 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 12:46:26,327 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 12:46:26,327 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:46:26,327 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:46:26,327 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:46:26,327 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 12:46:26,337 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 12:46:26,337 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 12:46:26,337 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 12:46:26,519 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp_save
+2023-10-07 12:46:26,648 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp
+2023-10-07 12:46:26,668 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c_save
+2023-10-07 12:46:26,748 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c
+2023-10-07 12:46:26,758 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h_save
+2023-10-07 12:46:26,818 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h
+2023-10-07 12:46:27,055 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c_save
+2023-10-07 12:46:27,155 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c
+2023-10-07 12:46:27,165 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h_save
+2023-10-07 12:46:27,265 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h
+2023-10-07 12:46:27,295 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c_save
+2023-10-07 12:46:27,365 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c
+2023-10-07 12:46:27,375 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h_save
+2023-10-07 12:46:27,415 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h
+2023-10-07 12:46:27,435 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c_save
+2023-10-07 12:46:27,505 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c
+2023-10-07 12:46:27,505 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h_save
+2023-10-07 12:46:27,555 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h
+2023-10-07 12:46:27,575 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c_save
+2023-10-07 12:46:27,675 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c
+2023-10-07 12:46:27,685 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h_save
+2023-10-07 12:46:27,745 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h
+2023-10-07 12:46:27,765 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c_save
+2023-10-07 12:46:27,835 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c
+2023-10-07 12:46:27,846 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h_save
+2023-10-07 12:46:27,896 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h
+2023-10-07 12:46:27,917 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c_save
+2023-10-07 12:46:28,065 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c
+2023-10-07 12:46:28,075 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h_save
+2023-10-07 12:46:28,125 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h
+2023-10-07 12:46:28,145 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c_save
+2023-10-07 12:46:28,285 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c
+2023-10-07 12:46:28,285 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h_save
+2023-10-07 12:46:28,335 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h
+2023-10-07 12:46:28,355 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-07 12:46:28,425 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c
+2023-10-07 12:46:28,425 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp_save
+2023-10-07 12:46:28,475 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp
+2023-10-07 12:46:28,495 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-07 12:46:28,605 [INFO] CodeEngine:335 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-07 12:46:28,635 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h_save
+2023-10-07 12:46:28,715 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h
+2023-10-07 12:46:28,725 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c_save
+2023-10-07 12:46:28,805 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c
+2023-10-07 12:46:29,206 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 8mS.
+2023-10-07 12:46:29,256 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-10-07 12:46:29,556 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-10-07 12:46:30,871 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1615mS.
+2023-10-07 12:46:30,871 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 12:46:30,871 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 13:55:52,821 [INFO] Gpio:273 - dependency for GPIO [ADC1, I2C1, RCC, USART1, USART2]
+2023-10-07 13:56:34,348 [INFO] Gpio:273 - dependency for GPIO [ADC1, I2C1, RCC, USART1, USART2]
+2023-10-07 13:56:34,471 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,471 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,471 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,471 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,601 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,601 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,661 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,661 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:34,671 [INFO] Gpio:273 - dependency for GPIO [ADC1, I2C1, RCC, USART1, USART2]
+2023-10-07 13:56:43,152 [INFO] Gpio:273 - dependency for GPIO [ADC1, I2C1, RCC, USART1, USART2]
+2023-10-07 13:56:43,261 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,261 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,261 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,261 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,301 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,301 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,348 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,348 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:43,361 [INFO] Gpio:273 - dependency for GPIO [ADC1, I2C1, RCC, USART1, USART2]
+2023-10-07 13:56:46,741 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 835209976 Bytes (980418560)
+2023-10-07 13:56:48,151 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 857754360 Bytes (980418560)
+2023-10-07 13:56:49,342 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 615659944 Bytes (980418560)
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-07 13:56:49,651 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-07 13:56:49,651 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 13:56:49,666 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 13:56:49,671 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:49,671 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 13:56:49,671 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 13:56:49,676 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 13:56:49,676 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 13:56:49,676 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 13:56:49,676 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 13:56:49,676 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 13:56:49,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp_save
+2023-10-07 13:56:49,986 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp
+2023-10-07 13:56:50,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c_save
+2023-10-07 13:56:50,171 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c
+2023-10-07 13:56:50,176 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h_save
+2023-10-07 13:56:50,245 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h
+2023-10-07 13:56:50,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c_save
+2023-10-07 13:56:50,651 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c
+2023-10-07 13:56:50,661 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h_save
+2023-10-07 13:56:50,741 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h
+2023-10-07 13:56:50,771 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c_save
+2023-10-07 13:56:50,841 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c
+2023-10-07 13:56:50,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h_save
+2023-10-07 13:56:50,911 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h
+2023-10-07 13:56:50,921 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c_save
+2023-10-07 13:56:50,996 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c
+2023-10-07 13:56:51,004 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h_save
+2023-10-07 13:56:51,051 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h
+2023-10-07 13:56:51,071 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c_save
+2023-10-07 13:56:51,156 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c
+2023-10-07 13:56:51,161 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h_save
+2023-10-07 13:56:51,231 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h
+2023-10-07 13:56:51,246 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c_save
+2023-10-07 13:56:51,324 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c
+2023-10-07 13:56:51,328 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h_save
+2023-10-07 13:56:51,381 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h
+2023-10-07 13:56:51,401 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c_save
+2023-10-07 13:56:51,481 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c
+2023-10-07 13:56:51,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h_save
+2023-10-07 13:56:51,551 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h
+2023-10-07 13:56:51,571 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c_save
+2023-10-07 13:56:51,746 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c
+2023-10-07 13:56:51,756 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h_save
+2023-10-07 13:56:51,821 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h
+2023-10-07 13:56:51,841 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-07 13:56:51,941 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c
+2023-10-07 13:56:51,946 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp_save
+2023-10-07 13:56:52,041 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp
+2023-10-07 13:56:52,051 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-07 13:56:52,187 [INFO] CodeEngine:335 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-07 13:56:52,221 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h_save
+2023-10-07 13:56:52,317 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h
+2023-10-07 13:56:52,330 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c_save
+2023-10-07 13:56:52,426 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c
+2023-10-07 13:56:52,853 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-10-07 13:56:52,894 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-10-07 13:56:53,251 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-10-07 13:56:54,761 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1867mS.
+2023-10-07 13:56:54,761 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 13:56:54,766 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 20:26:47,243 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 745412992 Bytes (1004535808)
+2023-10-07 20:26:50,682 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 811120080 Bytes (1004535808)
+2023-10-07 20:26:52,237 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 878029432 Bytes (1004535808)
+2023-10-07 20:26:52,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-10-07 20:26:52,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-07 20:26:52,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 20:26:52,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-07 20:26:52,597 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-07 20:26:52,597 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-10-07 20:26:52,608 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 20:26:52,608 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 20:26:52,608 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 20:26:52,608 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 20:26:52,608 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 20:26:52,608 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 20:26:52,612 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 20:26:52,612 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 20:26:52,612 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 20:26:52,612 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 20:26:52,617 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 20:26:52,812 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp_save
+2023-10-07 20:26:52,942 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp
+2023-10-07 20:26:52,992 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c_save
+2023-10-07 20:26:53,094 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c
+2023-10-07 20:26:53,103 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h_save
+2023-10-07 20:26:53,162 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h
+2023-10-07 20:26:53,607 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c_save
+2023-10-07 20:26:53,713 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c
+2023-10-07 20:26:53,722 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h_save
+2023-10-07 20:26:53,782 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h
+2023-10-07 20:26:53,813 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c_save
+2023-10-07 20:26:53,873 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c
+2023-10-07 20:26:53,882 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h_save
+2023-10-07 20:26:53,943 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h
+2023-10-07 20:26:53,952 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c_save
+2023-10-07 20:26:54,052 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c
+2023-10-07 20:26:54,052 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h_save
+2023-10-07 20:26:54,113 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h
+2023-10-07 20:26:54,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c_save
+2023-10-07 20:26:54,202 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c
+2023-10-07 20:26:54,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h_save
+2023-10-07 20:26:54,263 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h
+2023-10-07 20:26:54,282 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c_save
+2023-10-07 20:26:54,414 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c
+2023-10-07 20:26:54,414 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h_save
+2023-10-07 20:26:54,482 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h
+2023-10-07 20:26:54,502 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c_save
+2023-10-07 20:26:54,619 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c
+2023-10-07 20:26:54,627 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h_save
+2023-10-07 20:26:54,692 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h
+2023-10-07 20:26:54,772 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c_save
+2023-10-07 20:26:54,932 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c
+2023-10-07 20:26:54,942 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h_save
+2023-10-07 20:26:55,002 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h
+2023-10-07 20:26:55,022 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-07 20:26:55,093 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c
+2023-10-07 20:26:55,102 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp_save
+2023-10-07 20:26:55,152 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp
+2023-10-07 20:26:55,172 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-07 20:26:55,242 [INFO] CodeEngine:335 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-07 20:26:55,282 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h_save
+2023-10-07 20:26:55,372 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h
+2023-10-07 20:26:55,387 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c_save
+2023-10-07 20:26:55,472 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c
+2023-10-07 20:26:56,012 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-10-07 20:26:56,017 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-10-07 20:26:56,445 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-10-07 20:26:58,862 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2845mS.
+2023-10-07 20:26:58,862 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 20:26:58,867 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 21:24:57,491 [INFO] Gpio:273 - dependency for GPIO [ADC1, I2C1, RCC, USART1, USART2]
+2023-10-07 21:24:57,546 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 21:25:00,661 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-07 22:14:23,781 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 681301968 Bytes (1007681536)
+2023-10-07 22:14:28,050 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 708187264 Bytes (1007681536)
+2023-10-07 22:14:31,315 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 666929256 Bytes (1007681536)
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RTC
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ADC
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-10-07 22:14:31,575 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-10-07 22:14:31,575 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Instancevalue: DMA2_Stream0
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_0
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Modevalue: DMA_CIRCULAR
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_ENABLE
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : FIFOThresholdvalue: DMA_FIFO_THRESHOLD_FULL
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : MemBurstvalue: DMA_MBURST_SINGLE
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : PeriphBurstvalue: DMA_PBURST_SINGLE
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 22:14:31,585 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 22:14:31,595 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-10-07 22:14:31,595 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : hdmavalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Instancevalue: DMA1_Stream0
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Initvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:321 - 	 sub Args: 
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Channelvalue: DMA_CHANNEL_1
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Modevalue: DMA_NORMAL
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : FIFOThresholdvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : FIFOThresholdvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : MemBurstvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : MemBurstvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : PeriphBurstvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : PeriphBurstvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Lockvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Lockvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Statevalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Statevalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : Parentvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : Parentvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : XferCpltCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : XferCpltCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : XferHalfCpltCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : XferM1CpltCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : XferErrorCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : XferErrorCallbackvalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:319 - Argument : ErrorCodevalue: null
+2023-10-07 22:14:31,595 [INFO] Argument:329 - Argument : ErrorCodevalue: null
+2023-10-07 22:14:31,705 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp_save
+2023-10-07 22:14:31,785 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\license.tmp
+2023-10-07 22:14:31,805 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c_save
+2023-10-07 22:14:31,885 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\gpio.c
+2023-10-07 22:14:31,895 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h_save
+2023-10-07 22:14:31,955 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\gpio.h
+2023-10-07 22:14:32,299 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c_save
+2023-10-07 22:14:32,479 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\adc.c
+2023-10-07 22:14:32,489 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h_save
+2023-10-07 22:14:32,554 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\adc.h
+2023-10-07 22:14:32,614 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c_save
+2023-10-07 22:14:32,714 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\dma.c
+2023-10-07 22:14:32,724 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h_save
+2023-10-07 22:14:32,804 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\dma.h
+2023-10-07 22:14:32,824 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c_save
+2023-10-07 22:14:32,936 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\i2c.c
+2023-10-07 22:14:32,984 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h_save
+2023-10-07 22:14:33,054 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\i2c.h
+2023-10-07 22:14:33,074 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c_save
+2023-10-07 22:14:33,199 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\rtc.c
+2023-10-07 22:14:33,209 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h_save
+2023-10-07 22:14:33,288 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\rtc.h
+2023-10-07 22:14:33,298 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c_save
+2023-10-07 22:14:33,380 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\tim.c
+2023-10-07 22:14:33,390 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h_save
+2023-10-07 22:14:33,450 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\tim.h
+2023-10-07 22:14:33,460 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c_save
+2023-10-07 22:14:33,540 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\usart.c
+2023-10-07 22:14:33,540 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h_save
+2023-10-07 22:14:33,600 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\usart.h
+2023-10-07 22:14:33,620 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c_save
+2023-10-07 22:14:33,770 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_it.c
+2023-10-07 22:14:33,780 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h_save
+2023-10-07 22:14:33,830 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_it.h
+2023-10-07 22:14:33,850 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c_save
+2023-10-07 22:14:33,930 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\stm32f4xx_hal_msp.c
+2023-10-07 22:14:33,940 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp_save
+2023-10-07 22:14:33,990 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\MXTmpFiles\system.tmp
+2023-10-07 22:14:34,000 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-10-07 22:14:34,080 [INFO] CodeEngine:335 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\stm32f4xx_hal_conf.h
+2023-10-07 22:14:34,110 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h_save
+2023-10-07 22:14:34,180 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Inc\main.h
+2023-10-07 22:14:34,190 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c_save
+2023-10-07 22:14:34,274 [INFO] CodeEngine:279 - Generated code: C:\Users\Aleksy\Desktop\thesisproj\thesisSTMworkspace\Thesisv2\Core\Src\main.c
+2023-10-07 22:14:34,770 [INFO] ProjectBuilder:2996 - Time for Copy HAL[2] : 0mS.
+2023-10-07 22:14:34,780 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-10-07 22:14:35,097 [INFO] ConfigFileManager:1483 - The Die is : DIE431
+2023-10-07 22:14:36,491 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1711mS.
+2023-10-07 22:14:36,491 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-10-07 22:14:36,511 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

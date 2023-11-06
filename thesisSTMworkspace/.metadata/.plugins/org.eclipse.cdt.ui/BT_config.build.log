@@ -1,0 +1,10 @@
+22:55:05 **** Incremental Build of configuration Debug for project BT_config ****
+make -j12 all 
+arm-none-eabi-size   BT_config.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28136	     20	   2460	  30616	   7798	BT_config.elf
+Finished building: default.size.stdout
+ 
+
+22:55:05 Build Finished. 0 errors, 0 warnings. (took 535ms)
+

@@ -1,0 +1,24 @@
+/*
+ * kalman.h
+ *
+ *  Created on: Sep 30, 2023
+ *      Author: Aleksy
+ */
+
+#ifndef INC_KALMAN_H_
+#define INC_KALMAN_H_
+
+#include "main.h"
+
+typedef struct kalman{
+	float Q_Angle;
+	float Q_bias;
+	float r_measure;
+	float angle;
+	float bias;
+	float P[2][2];
+}Kalman;
+
+float Kalman_GetValues(Kalman *kalman, float angle, float param, double time_interval);
+
+#endif /* INC_KALMAN_H_ */

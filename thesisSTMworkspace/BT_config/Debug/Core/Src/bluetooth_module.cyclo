@@ -1,0 +1,6 @@
+bluetooth_module.c:30:6:enable_BluetoothEditMode	2
+bluetooth_module.c:47:6:check_Bluetooth	2
+bluetooth_module.c:66:6:check_bluetooth_Name	2
+bluetooth_module.c:85:6:set_BaudRate	1
+bluetooth_module.c:90:6:set_bluetooth_BaudRate	2
+bluetooth_module.c:114:6:HAL_UART_RxCpltCallback	3
